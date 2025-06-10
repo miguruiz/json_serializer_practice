@@ -19,7 +19,7 @@ test_json = """{
 def test_deserialize_transaction():
     trans_deser = JsonSerializer.deserialize_transaction(test_json)
     assert trans_deser.transaction_id == "txn_123456"
-    assert trans_deser.amount == 99.99
+    assert trans_deser.amount == 1 #99.99
     assert trans_deser.customer.customer_id == "cust_7890"
 
 def test_serialize_transaction():

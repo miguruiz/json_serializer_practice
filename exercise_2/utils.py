@@ -8,6 +8,7 @@ def get_required_field(data: Any, field: str,) -> Any:
         raise ValueError(f"{field} is required but missing")
     return value
 
+# TODO: return default value
 def get_optional_field(data: Any, field: str,) -> Any:
     value = data.get(field)
     if value is None or value == "":

@@ -44,8 +44,6 @@ SERIALIZER_RAW_JSON
 SERIALIZER_RAW_JSON
 
 - When parsing the JSON:
-    - Check for empty Json
-    - Check for mal-formed Json
     - How to handle:
         - empty Json
         - mal-formed JSON
